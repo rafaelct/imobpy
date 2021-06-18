@@ -87,7 +87,7 @@ Caso digite pytest na linha de comando e apresente a mensagem de comando não en
 </p>
 
 <pre>
-/home/<seu usuario>/.local/bin/pytest
+/home/[seu usuario]/.local/bin/pytest
 </pre>
 
 <p>
@@ -146,7 +146,7 @@ git push heroku master
 </pre>
 
 <p>
-Se der tudo certo, a sua aplicação estara no ar, acesse o link informado no final do processo, geralmente é https://<nome do seu app heroku>.herokuapp.com/valormetro
+Se der tudo certo, a sua aplicação estara no ar, acesse o link informado no final do processo, geralmente é https://[nome do seu app heroku].herokuapp.com/valormetro
 </p>
 <br>
 <br>
@@ -198,7 +198,7 @@ git push heroku master
 </pre>
 
 <p>
-Se der tudo certo, a sua aplicação estara no ar, acesse o link informado no final do processo, geralmente é https://<nome do seu app heroku>.herokuapp.com/valorimovel?qtdmetro=10
+Se der tudo certo, a sua aplicação estara no ar, acesse o link informado no final do processo, geralmente é https://[nome do seu app heroku].herokuapp.com/valorimovel?qtdmetro=10
 </p>
 <br>
 <br>
