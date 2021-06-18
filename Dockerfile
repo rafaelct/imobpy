@@ -9,7 +9,7 @@ EXPOSE 5000
 #WORKDIR /api
 COPY . /
 CMD ls -l
-CMD python3 web.py
+RUN python3 web.py
 
 
 
