@@ -1,24 +1,9 @@
-#from models.Registry import Registry as ModelRegistry
-#from controllers.utils.StatusReturn import StatusReturn
-#from flask import jsonify
-#from controllers.utils.getKey import getKey
 from config.Config import url_api_valormetro
 import requests
 
 class ValorImovelController :
 
     def methodGet(self,request) :
-        
-        #registration = ModelRegistry()
-
-        #data = request.get_json(silent=True)
-
-        #qtdMetro = getKey(data,"qtdmetro")
-
-
-
-        #password = getKey(data,"password")
-        #fullname = getKey(data,"fullname")
 
         resposta = {}
 
@@ -46,10 +31,6 @@ class ValorImovelController :
         print(resp['valormetro'])
         
         valorImovel = float(resp['valormetro']) * qtdMetro
-        
-        
-
-        
 
         dados = []
 

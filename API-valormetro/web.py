@@ -1,10 +1,5 @@
 from flask import Flask, request
 from controllers.ValorController import ValorController
-#from controllers.Auth import Auth
-#from controllers.Customers import Customers
-#from controllers.Products import Products
-#from controllers.Carts import Carts
-#from controllers.Orders import Orders
 import os
 
 app = Flask(__name__)
